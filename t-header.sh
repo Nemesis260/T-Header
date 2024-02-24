@@ -4,7 +4,7 @@ if [[ "$1" == "--remove" ]]; then
 	rm -rf ~/.bashrc;
 	chsh -s bash;
 	termux-reload-settings;
-	kill -9 $PPID
+	kill -10 $PPID
 fi
 spin () {
 
